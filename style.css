@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+
+    background-color: #9664f8;
+    background: linear-gradient(270deg, #9664f8 0%, #8b57f0 25%, #bd2fdd 50%, #9664f8 75%);
+    background-size: 600% 600%;
+    animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    border-radius: 80px;
+    width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto 35px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select,
+input {
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #bd2fdd;
+    height: 48px;
+    background: #FFF;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+}
+
+button {
+    background: #bd2fdd;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    height: 48px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0, 8;
+}
+
+
+button:active {
+    opacity: 0, 6;
+}
+
+section {
+
+    border-radius: 20px;
+    border: 1px solid #bd2fdd;
+    margin-top: 34px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seta {
+
+    margin: 20px 0;
+    padding-bottom: 3px;
+}
+
+.box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777;
+    font-size: 14px;
+}
+
+.starting-value {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.value-convert {
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+}
