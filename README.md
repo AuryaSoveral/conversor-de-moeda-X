@@ -14,7 +14,9 @@ Conversão entre:
 - Bitcoin (BTC)
 
 ✔ Interface moderna e responsiva
+
 ✔ Atualização dinâmica das moedas
+
 ✔ Formatação automática de valores
 
 ## Tecnologias
